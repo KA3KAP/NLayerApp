@@ -28,6 +28,7 @@ namespace NLayerApp.DAL.EF
             db.Parcel_Searchs.Add(new Parcel_Search { Name_of_Receiver = "Vladimir Kashpirovskiy", Name_of_Sender = "WineMarket", Current_State = "processing" });
             db.Parcel_Searchs.Add(new Parcel_Search { Name_of_Receiver = "Vasiliy Pupkin", Name_of_Sender = "Citrus", Current_State = "accepted" });
             db.Parcel_Searchs.Add(new Parcel_Search { Name_of_Receiver = "Katerine Duska", Name_of_Sender = "BetterLove", Current_State = "in a way" });
+            db.Parcel_Searchs.Add(new Parcel_Search { Name_of_Receiver = "Marin Mokun", Name_of_Sender = "Bags", Current_State = "delivered" });
             db.Parcel_Searchs.Add(new Parcel_Search { Name_of_Receiver = "Joce Papai", Name_of_Sender = "Yamaha", Current_State = "delivered" });
             db.SaveChanges();
         }
